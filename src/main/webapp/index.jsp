@@ -1,41 +1,5 @@
 <html>
 <body>
-<table border="1">
-    <tr>
-        <td>id</td>
-        <td>Products</td>
-        <td>Price</td>
-    </tr>
-        <tr>
-            <td>1.</td><td>Apple</td><td>200</td>
-        </tr>
-    <tr>
-        <td>2.</td><td>Qiwi</td><td>300</td>
-    </tr>
-    <tr>
-        <td>3.</td><td>Banana</td><td>500</td>
-    </tr>
-    <tr>
-        <td>4.</td><td>Apple</td><td>200</td>
-    </tr>
-    <tr>
-        <td>5.</td><td>Fig</td><td>420</td>
-    </tr>
-    <tr>
-        <td>6.</td><td>Grapes</td><td>300</td>
-    </tr>
-    <tr>
-        <td>7.</td><td>Plum</td><td>250</td>
-    </tr>
-    <tr>
-        <td>8.</td><td>Pear</td><td>630</td>
-    </tr>
-    <tr>
-        <td>9.</td><td>Orange</td><td>340</td>
-    </tr>
-    <tr>
-        <td>10.</td><td>Peach</td><td>270</td>
-    </tr>
-</table>
+<h2>Hello World!</h2>
 </body>
 </html>

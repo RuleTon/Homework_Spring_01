@@ -1,25 +1,17 @@
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import lombok.Builder;
+import lombok.Data;
 
+@Data
 
-@WebServlet("/product")
-public class Product extends HttpServlet {
+public class Product {
+    Integer id;
+    String productName;
+    Integer cost;
 
-    @Override
-     protected void doPost (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
-
-        int id = Integer.parseInt(req.getParameter("id"));
-        String product = req.getParameter("product");
-        int cost = Integer.parseInt(req.getParameter("cost"));
-
+    public Product(int id, String productName,int cost) {
+        this.id = id;
+        this.productName = productName;
+        this.cost = cost;
 
     }
-
-
-
-
-}
+    }
