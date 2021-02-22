@@ -1,17 +1,40 @@
-import lombok.Builder;
-import lombok.Data;
-
-@Data
-
 public class Product {
-    Integer id;
-    String productName;
-    Integer cost;
 
-    public Product(int id, String productName,int cost) {
+    private Long id;
+
+    private String name;
+
+    private int cost;
+
+    public Product(Long id, String name, int cost) {
         this.id = id;
-        this.productName = productName;
+        this.name = name;
         this.cost = cost;
+    }
 
+
+    public Long getid() {
+        return id;
+    }
+
+    public void setid(Long id) {
+        this.id = id;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getCost() {
+        return cost;
+    }
+
+    public void setCost(int cost) {
+        this.cost = cost;
     }
     }

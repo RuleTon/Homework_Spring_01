@@ -16,14 +16,5 @@
     <url-pattern>/hello</url-pattern>
   </servlet-mapping>
 
-  <servlet>
-    <servlet-name>Product</servlet-name>
-    <servlet-class>Product</servlet-class>
-  </servlet>
-
-  <servlet-mapping>
-    <servlet-name>Product</servlet-name>
-    <url-pattern>/product</url-pattern>
-  </servlet-mapping>
 
 </web-app>
